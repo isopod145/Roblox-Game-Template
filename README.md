@@ -13,7 +13,7 @@
 - run ``darklua process src dist``
 
 ## Serving
-- run ``rojo serve``
+- run ``rojo serve dist.project.json`` to serve the project that picks up on the DarkLua-generated files.
 
 ## Notes
 - Comes with a lot of pesde-loaded wally libraries, if you dont want them then just remove them in ``pesde.toml`` before you install
