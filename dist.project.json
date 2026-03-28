@@ -1,0 +1,39 @@
+{
+  "name": "DarkLua Distribution",
+  "tree": {
+    "$className": "DataModel",
+
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "dist/shared",
+        "Packages": {
+          "$path": "roblox_packages"
+        }
+      }
+
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "dist/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "dist/client"
+        },
+
+        "$path": "roblox/StarterPlayerScripts"
+      }
+    }
+  }
+
+}

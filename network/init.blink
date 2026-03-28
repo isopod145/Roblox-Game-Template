@@ -1,0 +1,4 @@
+option ServerOutput = "../src/server/network.luau"
+option ClientOutput = "../src/client/network.luau"
+option TypesOutput = "../src/shared/network_types.luau"
+option PromiseLibrary = "ReplicatedStorage.Shared.Packages.promise"

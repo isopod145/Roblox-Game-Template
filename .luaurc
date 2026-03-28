@@ -1,0 +1,9 @@
+{
+	"aliases":{
+		"client": "src/client",
+		"server": "src/server",
+		"packages": "roblox_packages",
+		"shared": "src/shared",
+		"data": "src/shared/data"
+	}
+}
